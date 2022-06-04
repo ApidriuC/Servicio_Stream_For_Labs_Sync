@@ -2,7 +2,7 @@ FROM node:15.11.0
 
 WORKDIR /usr/streamsforlab/sync-service
 
-
+ 
 COPY package*.json ./
 
 RUN npm install
